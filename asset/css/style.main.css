@@ -1,0 +1,25 @@
+body {
+  background-color: #ffffff;
+}
+
+.bg-navbar {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-nav {
+  color: #010101;
+}
+
+.link-hover {
+  text-decoration: none;
+}
+
+.text-main {
+  font-size: 2.75rem;
+}
+
+@media (min-width: 640px) {
+  .text-main {
+    font-size: 3.75rem;
+  }
+}
