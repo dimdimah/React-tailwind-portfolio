@@ -1,9 +1,13 @@
 body {
-  background-color: #ffffff;
+  background-color: #fff8f8;
 }
 
 .bg-navbar {
-  background-color: rgba(255, 255, 255, 0.5);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(255, 248, 248, 0.95);
 }
 
 .text-nav {
@@ -22,4 +26,18 @@ body {
   .text-main {
     font-size: 3.75rem;
   }
+}
+
+.card-color {
+  background-color: #fefefe;
+  margin: 1rem;
+}
+
+.card-bg {
+  background-color: #f6f6f6;
+  border: none;
+}
+
+.btn-card {
+  background-color: #010101;
 }
