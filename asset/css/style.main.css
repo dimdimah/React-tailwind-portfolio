@@ -47,8 +47,14 @@ body {
   background-color: #010101;
 }
 
+.project-section {
+  padding-top: 3rem;
+}
+
 .footer-section {
   font-size: 1rem;
+  padding-top: 4rem;
+  height: 30vh;
 }
 
 /* Video Container */

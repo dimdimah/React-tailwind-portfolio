@@ -132,26 +132,22 @@
           />
         </div>
       </div>
+
       <!-- Project section -->
-      <div id="project" class="container my-5 mx-lg-4 mx-sm-2">
-        <h5 class="fw-bold fs-2 my-4 mx-4">Project</h5>
-        <div
-          class="d-lg-flex rounded-4 justify-content-center align-items-center my-4 mx-4 py-3"
-          style="background-color: rgba(241, 241, 241, 0.95)"
-        >
-          <div class="card mx-4 my-4" style="width: 18rem">
-            <img
-              src="asset/image/Project-1.png"
-              class="card-img-top"
-              alt="project1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
+      <div id="project" class="container my-sm-5 my-lg-5 project-section">
+        <h5 class="fw-bold text-main fs-2 my-4 mx-3">Projects</h5>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="asset/image/Project-1.png"
+                class="card-img-top"
+                alt="Gambar 1"
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <!-- Button trigger modal -->
+                <h5 class="card-title">Web FessUp</h5>
+                <p class="card-text">Sebuah Web prototype...</p>
                 <button
                   type="button"
                   class="btn btn-dark"
@@ -183,8 +179,14 @@
                         ></button>
                       </div>
                       <div class="modal-body">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        Sebuah Web prototype untuk menyampaikan isi kritik
+                        saran, dibuat memgunakan framework python dengan nama
+                        streamlit. bisa dicek di Github
+                        <a
+                          href="https://github.com/dimdimah/Fess-up"
+                          target="_blank"
+                          >Link FessUp</a
+                        >
                       </div>
                       <div class="modal-footer">
                         <button
@@ -201,42 +203,39 @@
               </div>
             </div>
           </div>
-          <div class="card mx-4 my-4" style="width: 18rem">
-            <img
-              src="asset/image/Project-1.png"
-              class="card-img-top"
-              alt="project1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
+
+          <!-- Card 2 -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="asset/image/Project-2.png"
+                class="card-img-top"
+                alt="Project-2"
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <!-- Button trigger modal -->
+                <h5 class="card-title">Web stock storage</h5>
+                <p class="card-text">website pencatatan data...</p>
                 <button
                   type="button"
                   class="btn btn-dark"
                   data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
+                  data-bs-target="#modal2"
                 >
                   Details
                 </button>
-
-                <!-- Modal -->
                 <div
                   class="modal fade"
-                  id="exampleModal"
+                  id="modal2"
                   tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
+                  aria-labelledby="exampleModalLabel2"
                   aria-hidden="true"
                 >
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        <h5 class="modal-title" id="exampleModalLabel2">
                           Details
-                        </h1>
+                        </h5>
                         <button
                           type="button"
                           class="btn-close"
@@ -245,8 +244,15 @@
                         ></button>
                       </div>
                       <div class="modal-body">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        website pencatatan data barang sederhana yang dibuat
+                        menggunakan Next js 12, Tailwindcss, dan Json-server.
+                        memanfaatkan Json-server sebagai fake API.
+                        <a
+                          href="https://github.com/dimdimah/WardrobeFit-webapp"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Link Web stock storage</a
+                        >
                       </div>
                       <div class="modal-footer">
                         <button
@@ -254,7 +260,7 @@
                           class="btn btn-secondary"
                           data-bs-dismiss="modal"
                         >
-                          Close
+                          Tutup
                         </button>
                       </div>
                     </div>
@@ -263,42 +269,39 @@
               </div>
             </div>
           </div>
-          <div class="card mx-4 my-4" style="width: 18rem">
-            <img
-              src="asset/image/Project-1.png"
-              class="card-img-top"
-              alt="project1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text"></p>
+
+          <!-- Card 3 -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="asset/image/Project-3.png"
+                class="card-img-top"
+                alt="Project-3"
+              />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text"></p>
-                <!-- Button trigger modal -->
+                <h5 class="card-title">Wardrobe-Fit</h5>
+                <p class="card-text">sebuah web aplikasi...</p>
                 <button
                   type="button"
                   class="btn btn-dark"
                   data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
+                  data-bs-target="#modal3"
                 >
                   Details
                 </button>
-
-                <!-- Modal -->
                 <div
                   class="modal fade"
-                  id="exampleModal"
+                  id="modal3"
                   tabindex="-1"
-                  aria-labelledby="exampleModalLabel"
+                  aria-labelledby="exampleModalLabel3"
                   aria-hidden="true"
                 >
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                        <h5 class="modal-title" id="exampleModalLabel3">
                           Details
-                        </h1>
+                        </h5>
                         <button
                           type="button"
                           class="btn-close"
@@ -307,8 +310,16 @@
                         ></button>
                       </div>
                       <div class="modal-body">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        Wardrobe Fit adalah sebuah web aplikasi yang dirancang
+                        khusus untuk wanita yang ingin memilih pakaian dengan
+                        tepat untuk berbagai acara khusus, seperti invitation
+                        party, hangout, dan marriage party.
+                        <a
+                          href="https://github.com/dimdimah/WardrobeFit-webapp"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Link Wardrobe Fit</a
+                        >
                       </div>
                       <div class="modal-footer">
                         <button
@@ -316,7 +327,74 @@
                           class="btn btn-secondary"
                           data-bs-dismiss="modal"
                         >
-                          Close
+                          Tutup
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img
+                src="asset/image/Project-4.png"
+                class="card-img-top"
+                alt="Gambar 4"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Manajemen Kas Kelas</h5>
+                <p class="card-text">Aplikasi web yang...</p>
+                <button
+                  type="button"
+                  class="btn btn-dark"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal4"
+                >
+                  Details
+                </button>
+                <div
+                  class="modal fade"
+                  id="modal4"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel4"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel4">
+                          Details
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        Aplikasi web yang dirancang untuk membantu mahasiswa
+                        dalam mengelola dan mencatat transaksi uang kas secara
+                        digital. didevelop menggunakan framework Laravel 10,
+                        Plugin filament dan Bootstrap 5.
+                        <a
+                          href="https://github.com/dimdimah/kas-kelas-laravel9"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          >Link Manajemen Kas Kelas</a
+                        >
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Tutup
                         </button>
                       </div>
                     </div>
@@ -329,9 +407,9 @@
       </div>
 
       <!-- footer section -->
-      <footer id="footer" class="footer-section container-fluid">
+      <footer id="footer" class="footer-section container">
         <div class="row my-2">
-          <div class="col-md-6 order-1 order-md-1 mx-auto">
+          <div class="col-md-6 order-1 order-md-1 mx-2">
             <a class="d-flex px-2" href="#">
               <img
                 src="asset/image/img-header.svg"
@@ -346,7 +424,7 @@
               </p>
             </a>
           </div>
-          <div class="col-md-6 order-2 order-md-2 mx-auto">
+          <div class="col-md-5 order-2 order-md-5 px-4 mx-auto">
             <p class="text-dark text-nav px-3 pt-1 fw-bold">
               Kec. Patrol, Kabupaten Indramayu, Jawa Barat. <br />
               Phone +62 8131 3478 646.
