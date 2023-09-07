@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fff8f8;
 }
@@ -16,6 +20,7 @@ body {
 
 .link-hover {
   text-decoration: none;
+  color: #010101;
 }
 
 .text-main {
@@ -44,4 +49,20 @@ body {
 
 .footer-section {
   font-size: 1rem;
+}
+
+/* Video Container */
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh; /* Tinggi 70% dari viewport */
+}
+
+/* Stretched Video */
+.bg-video {
+  width: 100%; /* Lebar 100% dari parent (video-container) */
+  height: 100%; /* Tinggi 100% dari parent (video-container) */
+  object-fit: cover;
+  z-index: -1;
 }
