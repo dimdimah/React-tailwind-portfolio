@@ -1,5 +1,8 @@
-# bootstrap5-portfolio
+# React + Vite
 
-Loading...
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Proyek Bootstrap5-Portfolio ini bertujuan untuk membuat sebuah situs web portofolio yang menampilkan keterampilan, proyek, dan informasi pribadi. Portofolio ini dapat digunakan oleh pengembang web, desainer, atau profesional lainnya untuk memamerkan pekerjaan mereka kepada calon klien atau pemberi kerja.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
