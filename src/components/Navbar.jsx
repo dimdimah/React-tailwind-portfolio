@@ -37,7 +37,7 @@ function Navbar() {
           </div>
           <div className="flex items-center justify-start px-2 lg:justify-end">
             <img
-              src="/public/img-header.svg"
+              src="/img-header.svg"
               alt="icon-navbar"
               width={50}
               height={50}
